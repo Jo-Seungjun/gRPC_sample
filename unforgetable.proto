@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package unforgetable;
+
+service Service1 {
+    rpc function1 (requestType1) returns (returnType1) {}
+    rpc function2 (requestType2) returns (returnType2) {}
+}
+
+message requestType1 {
+    int32 field1 = 1;
+}
+
+message requestType2 {
+    float field1 = 1;
+    float field2 = 2;
+}
+
+message returnType1 {
+    int32 field1 = 1;
+}
+
+message returnType2 {
+    float field1 = 1;
+    float field2 = 2;
+}
+
+service Service2 {
+    rpc function1 (requestType1) returns (returnType2) {}
+    rpc function2 (requestType2) returns (returnType1) {}
+}
