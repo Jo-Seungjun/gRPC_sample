@@ -1,0 +1,135 @@
+<mxfile host="65bd71144e" modified="2021-01-15T03:48:41.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="G6puwW5pauPHbKo9sJUp" version="13.10.0" type="embed">
+    <diagram id="qssZts3fkbzhO-ls8TMf" name="페이지-1">
+        <mxGraphModel dx="3160" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;h1&gt;Model Serving&lt;/h1&gt;&lt;p&gt;이전까지는 딥러닝 모델을 배포, 관리, 수정 하기위해 해당 기술이 적용되는 어플리케이션을 모두 코딩해야 했다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;h1&gt;[NBP 기술&amp;amp;경험] 시대의 흐름, gRPC 깊게 파고들기 #2&lt;/h1&gt;&lt;p&gt;네이버에서 gRPC 에 대한 자세한 설명을 해준다. protocol buffers 가 변환되는 방법, 인증, 문법, failover&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="420" width="360" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="gRPC 는 세션을 유지할 수 있나요?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="300" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <UserObject label="https://github.com/grpc/grpc-dotnet/issues/946" link="https://github.com/grpc/grpc-dotnet/issues/946" id="7">
+                    <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="1460" y="295" width="270" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;h1&gt;protocol buffer&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-420" y="460" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;h1&gt;클라이언트 인증 예제&lt;/h1&gt;&lt;p&gt;https://stackoverflow.com/questions/52955316/grpc-python-client-authentication-example&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="310" width="290" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;h1&gt;[공식] quick start&lt;/h1&gt;&lt;p&gt;빠르게 시연해볼 수 있는 간단한 예제를 소개한다. 심도있는 가이드는 아니다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="280" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="15" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="gRPC 이미지 전송" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="620" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;h1&gt;chunking 방법 예제&lt;/h1&gt;&lt;p&gt;https://gist.github.com/lidizheng/825f1b255767a90fb3a5d4be54071678&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="750" width="400" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="18" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;h1&gt;awesome grpc&lt;/h1&gt;&lt;p&gt;grpc 와 관련된 Awesome 한 자료를 모아놓은 곳https://github.com/grpc-ecosystem/awesome-grpc&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="586.5" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;h1&gt;awesome 이란?&lt;/h1&gt;&lt;div&gt;디지털 적으로 자산이 될 수 있는 데이터를 의미한다.&lt;/div&gt;&lt;div&gt;https://github.com/sindresorhus/awesome/blob/main/awesome.md&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="584" width="360" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;h1&gt;gRPC python API 문서&lt;/h1&gt;&lt;p&gt;https://grpc.github.io/grpc/python/index.html&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="440" width="263" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="22" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="22" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="문서" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="230" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="가이드" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="230" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="26" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="질문" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="220" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="대기열&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%EC%A7%88%EB%AC%B8%22%20style%3D%22shape%3Dprocess%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221110%22%20y%3D%22220%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;https://grpc.io/docs/what-is-grpc/introduction/&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry y="-280" width="830" height="280" as="geometry"/>
+                </mxCell>
+                <UserObject label="https://grpc.io/docs/what-is-grpc/introduction/" link="https://grpc.io/docs/what-is-grpc/introduction/" id="34">
+                    <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="10" y="-80" width="260" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="https://grpc.io/docs/what-is-grpc/core-concepts/" link="https://grpc.io/docs/what-is-grpc/core-concepts/" id="35">
+                    <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="10" y="-40" width="280" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="36" value="&lt;h1&gt;microservice 와 gRPC&lt;/h1&gt;&lt;p&gt;이 글에서는 gRPC 를 사용한 microservice 에 대해 얘기한다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="60" width="410" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;h1&gt;이것만 읽는 protocol buffer&lt;/h1&gt;&lt;p&gt;protocol buffer 에 대해 진짜 간략하게 설명한 자료이다.&lt;/p&gt;&lt;p&gt;https://jeong-pro.tistory.com/193&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-290" y="710" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;h1&gt;gRPC vs REST&lt;/h1&gt;&lt;p&gt;gRPC 와 REST 의 차이를 보여준다. gRPC가 적합한 이유를 설명한다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-540" y="230" width="450" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;h1&gt;[공식] protocol buffer&lt;/h1&gt;&lt;p&gt;공식 protocol buffer 소개 페이지&lt;/p&gt;&lt;p&gt;https://developers.google.com/protocol-buffers?hl=en&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-290" y="850" width="300" height="120" as="geometry"/>
+                </mxCell>
+                <UserObject label="grpc-vs-rest-performance-simplified-fd35d01bbd4" link="https://medium.com/@bimeshde/grpc-vs-rest-performance-simplified-fd35d01bbd4" id="42">
+                    <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+                        <mxGeometry x="-540" y="310" width="300" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="microservices-with-grpc-d504133d191d" link="https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d" id="43">
+                    <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+                        <mxGeometry x="610" y="140" width="250" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="nbp-%EA%B8%B0%EC%88%A0-%EA%B2%BD%ED%97%98-%EC%8B%9C%EB%8C%80%EC%9D%98-%ED%9D%90%EB%A6%84-grpc-%EA%B9%8A%EA%B2%8C-%ED%8C%8C%EA%B3%A0%EB%93%A4%EA%B8%B0-2-b01d390a7190" link="https://medium.com/naver-cloud-platform/nbp-%EA%B8%B0%EC%88%A0-%EA%B2%BD%ED%97%98-%EC%8B%9C%EB%8C%80%EC%9D%98-%ED%9D%90%EB%A6%84-grpc-%EA%B9%8A%EA%B2%8C-%ED%8C%8C%EA%B3%A0%EB%93%A4%EA%B8%B0-2-b01d390a7190" id="44">
+                    <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+                        <mxGeometry x="570" y="520" width="199" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://grpc.io/docs/languages/python/quickstart/" id="45">
+                    <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+                        <mxGeometry x="140" y="370" width="250" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
